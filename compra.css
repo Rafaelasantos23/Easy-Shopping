@@ -41,7 +41,7 @@ h1 {
 
 p {
   font-size: 28px;
-  line-height: 48px;
+  line-height: 30px;
   opacity: 0.6;
   margin: 15px 0px;
   width: 540px;
@@ -89,4 +89,53 @@ a:hover {
 
 header {
   margin: 24px 0 0 57px;
+}
+
+@media screen and (max-width: 930px) {
+  .left {
+    width: 100%;
+    height: 50%;
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+  }
+
+  .right {
+    display: block;
+    height: auto;
+    width: 100%;
+    position: static;
+    padding: 40px;
+  }
+
+  img {
+    position: static;
+    width: 80%;
+  }
+
+  header {
+    display: none;
+  }
+
+  h1 {
+    font-size: 36px;
+    line-height: 52px;
+    width: auto;
+    margin: 58px 50px 0 50px;
+    text-align: center;
+  }
+
+  p {
+    margin: 15px 40px;
+    width: auto;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 24px;
+    line-height: 15px;
+  }
+
+  button {
+    display: block;
+    margin: 0 auto;
+  }
 }
